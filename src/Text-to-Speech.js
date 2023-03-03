@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSpeechSynthesis } from "react-speech-kit";
 // import { Container, Segment } from "react-dom";
-import "./translate.css";
+import "./Text-to-Speech.css";
 
 const Translate = () => {
   const [text, setText] = useState("");
